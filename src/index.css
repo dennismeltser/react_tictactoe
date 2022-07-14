@@ -1,6 +1,7 @@
 body {
     font: 14px 'Century Gothic', Futura, sans-serif;
     margin: 20px;
+    background-color: #252934;
 }
 
 ol,
@@ -44,8 +45,18 @@ ul {
 .game {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .game-info {
     margin-left: 20px;
+}
+
+.status {
+    color: #04c2c9;
+}
+
+.list {
+    color: #04c2c9;
 }
