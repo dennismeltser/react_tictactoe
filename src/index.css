@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+.game {
+    height: 100vh;
+}
+
 body {
-    font: 14px 'Century Gothic', Futura, sans-serif;
-    margin: 20px;
+    font: 20px 'Poppins', sans-serif;
+    margin: 15px;
     background-color: #252934;
+    height: 100vh;
+    font-weight: 500;
 }
 
 ol,
@@ -23,15 +31,15 @@ ul {
     background: #fff;
     border: 1px solid #999;
     float: left;
-    font-size: 24px;
+    font-size: 44px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 55px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 55px;
 }
 
 .square:focus {
@@ -55,6 +63,7 @@ ul {
 
 .status {
     color: #04c2c9;
+    font-size: 20px;
 }
 
 .list {
