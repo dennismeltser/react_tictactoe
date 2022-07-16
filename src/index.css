@@ -59,6 +59,8 @@ ul {
 
 .game-info {
     margin-left: 20px;
+    position: absolute;
+    margin-top: 50%;
 }
 
 .status {
