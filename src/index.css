@@ -6,10 +6,10 @@
 
 body {
     font: 20px 'Poppins', sans-serif;
-    margin: 15px;
     background-color: #252934;
     height: 100vh;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 ol,
@@ -31,15 +31,15 @@ ul {
     background: #fff;
     border: 1px solid #999;
     float: left;
-    font-size: 44px;
+    font-size: 100px;
     font-weight: bold;
     line-height: 34px;
-    height: 55px;
+    height: 150px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 55px;
+    width: 150px;
 }
 
 .square:focus {
@@ -63,9 +63,15 @@ ul {
 
 .status {
     color: #04c2c9;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .list {
     color: #04c2c9;
+}
+
+.title {
+    color: #04c2c9;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
